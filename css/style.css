@@ -35,6 +35,7 @@ p {
 	padding-left: 15px;
 	padding-right: 15px;
 	position: relative;
+	width: auto;
 }
 .container:before,
 .container:after {
@@ -141,16 +142,10 @@ header .hero h3 {
 
 /* Tablets */
 @media (min-width: 768px) {
-	.container {
-		width: 750px;
-	}
 	.content {
 		padding: 1.5em 5%;
 		width: 90%;
 		position: relative;
-	}
-	.content > .container {
-		width: 768px;
 	}
 	.content-item {
 		width: 31.33333%;
@@ -171,18 +166,8 @@ header .hero h3 {
 		width: 80%;
 		position: relative;
 	}
-	.content > .container {
-		width: auto;
-	}
 	.content-item {
 		width: 23%;
 		margin: 0 1% 25px;
-	}
-}
-
-/* Extra Wide */
-@media (min-width: 1200px) {
-	.container {
-		width: 1200px;
 	}
 }
