@@ -172,7 +172,7 @@ header .hero h3 {
 		position: relative;
 	}
 	.content > .container {
-		width: 90%;
+		width: auto;
 	}
 	.content-item {
 		width: 23%;
