@@ -44,7 +44,7 @@ p {
 .container:after {
 	clear: both;
 }
-.one-half, .one-third, .one-fourth {
+.one-half, .one-third, .two-third {
 	width:96%;
 	float:left;
 	position:relative;
@@ -160,8 +160,8 @@ header .hero h3 {
 	.one-third {
 		width: 29.33333%;
 	}
-	.one-fourth {
-		width: 21%;
+	.two-third {
+		width: 60.66666%
 	}
 	.content {
 		padding: 1.5em 1%;
