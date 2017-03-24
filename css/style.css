@@ -174,9 +174,6 @@ header .hero h3 {
 		width: 80%;
 		position: relative;
 	}
-	.content > .container {
-		width: auto;
-	}
 	.content-item {
 		width: 23%;
 		margin: 0 1% 25px;
