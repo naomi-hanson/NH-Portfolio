@@ -160,9 +160,6 @@ header .hero h3 {
 
 /* Laptops and Desktops */
 @media (min-width: 992px) {
-	.container {
-		width: 992px;
-	}
 	.one-third {
 		width: 29.33333%;
 	}
@@ -173,6 +170,9 @@ header .hero h3 {
 		padding: 1.5em 1%;
 		width: 80%;
 		position: relative;
+	}
+	.content > .container {
+		width: 90%;
 	}
 	.content-item {
 		width: 23%;
