@@ -153,7 +153,7 @@ header .hero h3 {
 		position: relative;
 	}
 	.content > .container {
-		width: 700px;
+		width: 768px;
 	}
 	.content-item {
 		width: 31.33333%;
@@ -164,7 +164,7 @@ header .hero h3 {
 /* Laptops and Desktops */
 @media (min-width: 992px) {
 	.container {
-		width: 970px;
+		width: 992px;
 	}
 	.one-half {
 		width: 46%;
@@ -193,6 +193,6 @@ header .hero h3 {
 /* Extra Wide */
 @media (min-width: 1200px) {
 	.container {
-		width: 1170px;
+		width: 1200px;
 	}
 }
