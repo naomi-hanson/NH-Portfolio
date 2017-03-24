@@ -68,12 +68,16 @@ header nav ul > li {
 	margin: 0 15px;
 }
 header nav ul > li > a {
-	color: #a7603e;
+	color: #333333;
 	font-size: 14px;
 	text-decoration: none;
 }
-header nav ul > li > a:hover {
+header nav a:hover {
 	color: #a7603e;
+}
+header nav a:active {
+	color: #a7603e;
+	font-size: 18px;
 }
 header .hero {
 	text-align: center;
