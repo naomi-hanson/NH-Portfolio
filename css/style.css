@@ -8,3 +8,22 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Quicksand", Helvetica, Arial, sans-serif;
 }
+h1 {
+	color: #4e1e1e;
+	font-weight: bold;
+	font-size: 61.69px;
+}
+h2 {
+	color: #a7603e;
+	font-weight: lighter;
+	font-size: 61px;
+}
+h3 {
+	color: #4e1e1e;
+	font-weight: lighter;
+	font-size: 33px;
+}
+p {
+	font-size: 24px;
+	font-weight: normal;
+}
