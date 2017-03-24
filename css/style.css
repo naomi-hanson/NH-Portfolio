@@ -66,15 +66,14 @@ header nav ul > li {
 	list-style-type: none;
 	display: inline-block;
 	margin: 0 15px;
-	font-size: 14px;
-}
-header nav ul > li:hover {
-	color: #a7603e;
 }
 header nav ul > li > a {
 	color: #a7603e;
-	font-size: 18px;
+	font-size: 14px;
 	text-decoration: none;
+}
+header nav ul > li > a:hover {
+	color: #a7603e;
 }
 header .hero {
 	text-align: center;
