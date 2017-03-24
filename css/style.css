@@ -51,3 +51,26 @@ p {
 	min-height: 1px;
 	margin:0 2% 20px;
 }
+
+/* CONTENT */
+.content {
+	padding: 6em 1% 1.5em;
+	float: right;
+	width: 98%;
+	position: relative;
+}
+.content-item {
+	width: 96%;
+	margin: 0 2% 25px;
+	float: left;
+	display: block;
+}
+.item-box {
+	display: block;
+	height: 230px;
+	background: #e1e1e1;
+	box-shadow: 0px 1px 3px 0px rgba (0,0,0,0.40);
+	position: relative;
+	overflow: hidden;
+	padding: 20px;
+}
