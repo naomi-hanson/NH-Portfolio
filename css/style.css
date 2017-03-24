@@ -63,6 +63,9 @@ p {
 /* HEADER */
 header {
 	background-image: url("images/trees_upperLeft.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-attachment: fixed;
 }
 header nav {
 	padding: 1em 0;
