@@ -52,6 +52,42 @@ p {
 	margin:0 2% 20px;
 }
 
+/* HEADER */
+header nav {
+	padding: 1em 0;
+}
+header nav ul {
+	display: inline;
+	text-align: right;
+	float: right;
+	margin: 0;
+}
+header nav ul > li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 15px;
+	font-size: 14px;
+}
+header nav ul > li:hover {
+	color: #a7603e;
+}
+header nav ul > li > a {
+	color: #a7603e;
+	font-size: 18px;
+	text-decoration: none;
+}
+header .hero {
+	text-align: center;
+	display: block;
+	position: relative;
+}
+header .hero h1 {
+	margin: 95px 0 0;
+}
+header .hero h3 {
+	margin: 10px 0 40px;
+}
+
 /* CONTENT */
 .content {
 	padding: 6em 1% 1.5em;
@@ -73,4 +109,78 @@ p {
 	position: relative;
 	overflow: hidden;
 	padding: 20px;
+}
+
+/* MEDIA QUERIES */
+
+/* Larger Mobile Devices */
+@media (min-width: 460px) {
+	.content {
+		padding: 1.5em 1%;
+		float: right;
+		width: 90%;
+		position: relative;
+	}
+	.content-item {
+		width: 46%;
+		margin: 0 2% 25px;
+		float: left;
+		display: block;
+	}
+}
+
+/* Tablets */
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+	.content {
+		padding: 1.5em 5%;
+		float: right;
+		width: 90%;
+		position: relative;
+	}
+	.content > .container {
+		width: 700px;
+	}
+	.content-item {
+		width: 31.33333%;
+		margin: 0 1% 25px;
+	}
+}
+
+/* Laptops and Desktops */
+@media (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+	.one-half {
+		width: 46%;
+	}
+	.one-third {
+		width: 29.33333%;
+	}
+	.one-fourth {
+		width: 21%;
+	}
+	.content {
+		padding: 1.5em 1%;
+		float: right;
+		width: 83.333333333%;
+		position: relative;
+	}
+	.content > .container {
+		width: auto;
+	}
+	.content-item {
+		width: 23%;
+		margin: 0 1% 25px;
+	}
+}
+
+/* Extra Wide */
+@media (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
 }
