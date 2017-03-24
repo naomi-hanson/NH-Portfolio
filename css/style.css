@@ -55,6 +55,7 @@ p {
 /* HEADER */
 header nav {
 	padding: 1em 0;
+	position: fixed;
 }
 header nav ul {
 	display: inline;
