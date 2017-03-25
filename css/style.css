@@ -54,7 +54,8 @@ p {
 
 /* TREES */
 .trees-left {
-	left: 0%;
+	left: 0px;
+	top: 0px
 }
 .trees-right {
 	right: 0%;
@@ -62,10 +63,7 @@ p {
 
 /* HEADER */
 header {
-	background-image: url("images/trees_upperLeft.png");
-	background-repeat: no-repeat;
-	background-position: left top;
-	background-attachment: fixed;
+	top: 0px
 }
 header nav {
 	padding: 1em 0;
@@ -76,6 +74,9 @@ header nav ul {
 	text-align: right;
 	float: right;
 	margin: 0;
+	position: absolute;
+	top: 0px;
+	right: 0px;
 }
 header nav ul > li {
 	list-style-type: none;
@@ -104,6 +105,16 @@ header .hero h1 {
 }
 header .hero h3 {
 	margin: 10px 0 40px;
+}
+.trees-upperLeft {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.trees-upperRight {
+	position: absolute;
+	top: 0px;
+	right: 0px;
 }
 
 /* CONTENT */
