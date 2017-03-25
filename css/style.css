@@ -162,6 +162,12 @@ header .hero h3 {
 }
 
 /* ABOUT & CONTACT */
+.About .one-third {
+	float: left;
+}
+.About .one-third img {
+	margin-left: 66.666666%;
+}
 
 /* FOOTER */
 footer {
@@ -221,7 +227,7 @@ footer {
 	}
 	.content {
 		padding: 1.5em 1%;
-		width: 80%;
+		width: 100%;
 		position: relative;
 	}
 	.content-item {
