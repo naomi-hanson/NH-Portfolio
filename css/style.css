@@ -30,10 +30,6 @@ p {
 
 /* GRID */
 .container {
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: 15px;
-	padding-right: 15px;
 	position: relative;
 	width: auto;
 }
@@ -49,16 +45,18 @@ p {
 	width:96%;
 	position:relative;
 	min-height: 1px;
-	margin:0 2% 20px;
 }
 
 /* TREES */
-.trees-left {
+.trees-upperLeft {
+	position: absolute;
 	left: 0px;
 	top: 0px
 }
-.trees-right {
-	right: 0%;
+.trees-upperRight {
+	position: absolute;
+	top: 0px;
+	right: 0px;
 }
 
 /* HEADER */
@@ -68,6 +66,10 @@ header {
 header nav {
 	padding: 1em 0;
 	position: fixed;
+}
+header nav .one-third {
+	position: absolute;
+	right: 0px;
 }
 header nav ul {
 	display: inline;
