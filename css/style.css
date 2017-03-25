@@ -16,8 +16,9 @@ h1 {
 }
 h2 {
 	color: #a7603e;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 61px;
+	margin-bottom: 0px;
 }
 h3 {
 	color: #4e1e1e;
@@ -28,16 +29,22 @@ h4 {
 	color: #333333;
 	font-size: 30px;
 	font-weight: 500;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	margin-bottom: 2px;
 }
 h5 {
 	color: #333333;
 	font-size: 24px;
-	font-weight: 300;
+	font-weight: 400;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 h6 {
 	color: #a7603e;
 	font-size: 24px;
-	font-weight: 300;
+	font-weight: 400;
+	margin-top: 20px;
 }
 p {
 	font-size: 24px;
@@ -152,7 +159,7 @@ header .hero h3 {
 
 /* FOOTER */
 footer {
-	margin-top: 150px;
+	margin-top: 140px;
 }
 .trees-lowerLeft {
 	position: absolute;
