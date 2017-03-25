@@ -48,26 +48,6 @@ p {
 	min-height: 1px;
 }
 
-/* TREES */
-.trees-upperLeft {
-	position: absolute;
-	left: 0px;
-	top: 0px
-}
-.trees-upperRight {
-	position: absolute;
-	top: 0px;
-	right: 0px;
-}
-.trees-lowerLeft {
-	position: absolute;
-	left: 0px;
-}
-.trees-lowerRight {
-	position: absolute;
-	right: 0px;
-}
-
 /* HEADER */
 header {
 	top: 0px
@@ -153,6 +133,18 @@ header .hero h3 {
 	position: relative;
 	overflow: hidden;
 	padding: 20px;
+}
+
+/* FOOTER */
+.trees-lowerLeft {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+.trees-lowerRight {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
 }
 
 /* MEDIA QUERIES */
