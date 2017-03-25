@@ -139,7 +139,7 @@ header .hero h3 {
 }
 
 /* CONTENT */
-.content {
+/*.content {
 	padding: 6em 1% 1.5em;
 	float: right;
 	width: 98%;
@@ -159,7 +159,7 @@ header .hero h3 {
 	position: relative;
 	overflow: hidden;
 	padding: 20px;
-}
+}*/
 
 /* ABOUT & CONTACT */
 .About {
