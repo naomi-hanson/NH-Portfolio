@@ -59,6 +59,14 @@ p {
 	top: 0px;
 	right: 0px;
 }
+.trees-lowerLeft {
+	position: absolute;
+	left: 0px;
+}
+.trees-lowerRight {
+	position: absolute;
+	right: 0px;
+}
 
 /* HEADER */
 header {
