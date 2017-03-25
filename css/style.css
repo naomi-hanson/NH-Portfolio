@@ -162,11 +162,15 @@ header .hero h3 {
 }
 
 /* ABOUT & CONTACT */
+.About {
+	padding-top: 990px;
+}
 .About .one-third {
 	float: left;
 }
 .About .one-third img {
 	margin-left: 66.666666%;
+	margin-top: 70px;
 }
 
 /* FOOTER */
