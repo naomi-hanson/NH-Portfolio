@@ -12,6 +12,7 @@ h1 {
 	color: #4e1e1e;
 	font-weight: bold;
 	font-size: 61.69px;
+	font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
 h2 {
 	color: #a7603e;
@@ -74,7 +75,7 @@ header nav ul {
 	display: inline;
 	text-align: right;
 	float: right;
-	margin: 0;
+	margin: 30px;
 	position: absolute;
 	top: 0px;
 	right: 0px;
@@ -100,6 +101,7 @@ header .hero {
 	text-align: center;
 	display: block;
 	position: relative;
+	margin-top: 125px;
 }
 header .hero h1 {
 	margin: 95px 0 0;
