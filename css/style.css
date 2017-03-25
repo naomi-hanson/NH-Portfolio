@@ -82,6 +82,9 @@ header nav .one-third {
 	position: absolute;
 	right: 0px;
 }
+header nav > .two-third {
+	margin-left: 0px;
+}
 header nav ul {
 	display: inline;
 	text-align: right;
@@ -182,6 +185,9 @@ header .hero h3 {
 	.content-item {
 		width: 31.33333%;
 		margin: 0 1% 25px;
+	}
+	.two-third {
+		margin-left: auto;
 	}
 }
 
