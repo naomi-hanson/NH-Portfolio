@@ -49,6 +49,10 @@ h6 {
 p {
 	font-size: 24px;
 	font-weight: normal;
+	padding-right: 20%;
+}
+a {
+	color: #a7603e;
 }
 
 /* GRID */
@@ -158,9 +162,6 @@ header .hero h3 {
 }
 
 /* ABOUT & CONTACT */
-main .Contact > a {
-	color: #a7603e;
-}
 
 /* FOOTER */
 footer {
