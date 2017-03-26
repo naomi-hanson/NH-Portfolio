@@ -200,8 +200,8 @@ header .hero h3 {
 	float: left;
 }
 .About .one-third img {
-	margin-left: 66.666666%;
-	margin-top: 70px;
+	float: right;
+	margin-top: 8%;
 }
 
 /* FOOTER */
@@ -289,5 +289,8 @@ footer {
 	}
 	.content-item-big {
 		margin: 0 0 70px;
+	}
+	.About .one-third {
+		width: 34%;
 	}
 }
