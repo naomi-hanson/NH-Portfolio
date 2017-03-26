@@ -145,7 +145,7 @@ header .hero h3 {
 	width: 98%;
 	position: relative;
 }
-.content-item {
+.content-item-small {
 	width: 96%;
 	margin: 0 2% 25px;
 	float: left;
@@ -194,7 +194,7 @@ footer {
 		width: 90%;
 		position: relative;
 	}
-	.content-item {
+	.content-item-small {
 		width: 46%;
 		margin: 0 2% 25px;
 		float: left;
@@ -209,7 +209,7 @@ footer {
 		width: 90%;
 		position: relative;
 	}
-	.content-item {
+	.content-item-small {
 		width: 31.33333%;
 		margin: 0 1% 25px;
 	}
@@ -233,7 +233,7 @@ footer {
 		column-count: 3;
 		column-gap: 20px;
 	}
-	.content-item {
+	.content-item-small {
 		width: 100%;
 		margin: 0 0 20px;
 	}
