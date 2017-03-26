@@ -170,7 +170,6 @@ header .hero h3 {
 	display: block;
 }
 .item-box-small {
-/*	display: block;*/
 	height: 216px;
 	background: #e1e1e1;
 	border-radius: 4px;
@@ -179,7 +178,6 @@ header .hero h3 {
 	padding: 20px;
 }
 .item-box-medium {
-/*	display: block;*/
 	height: 360px;
 	background: #e1e1e1;
 	border-radius: 4px;
@@ -188,7 +186,6 @@ header .hero h3 {
 	padding: 20px;
 }
 .item-box-big {
-/*	display: block;*/
 	height: 504px;
 	background: #e1e1e1;
 	border-radius: 4px;
