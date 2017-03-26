@@ -146,19 +146,22 @@ header .hero h3 {
 	position: relative;
 }
 .content-item-small {
-	width: 96%;
+	width: 360px;
+	height: 216px;
 	margin: 0 2% 25px;
 	float: left;
 	display: block;
 }
 .content-item-medium {
-	width: 96%;
+	width: 360px;
+	height: 360px;
 	margin: 0 2% 25px;
 	float: left;
 	display: block;
 }
 .content-item-big {
-	width: 96%;
+	width: 360px;
+	height: 504px;
 	margin: 0 2% 25px;
 	float: left;
 	display: block;
@@ -207,19 +210,16 @@ footer {
 		position: relative;
 	}
 	.content-item-small {
-		width: 46%;
 		margin: 0 2% 25px;
 		float: left;
 		display: block;
 	}
 	.content-item-medium {
-		width: 46%;
 		margin: 0 2% 25px;
 		float: left;
 		display: block;
 	}
 	.content-item-big {
-		width: 46%;
 		margin: 0 2% 25px;
 		float: left;
 		display: block;
@@ -234,15 +234,12 @@ footer {
 		position: relative;
 	}
 	.content-item-small {
-		width: 31.33333%;
 		margin: 0 1% 25px;
 	}
 	.content-item-medium {
-		width: 31.33333%;
 		margin: 0 1% 25px;
 	}
 	.content-item-big {
-		width: 31.33333%;
 		margin: 0 1% 25px;
 	}
 	.two-third {
@@ -266,15 +263,12 @@ footer {
 		column-gap: 20px;
 	}
 	.content-item-small {
-		width: 100%;
 		margin: 0 0 20px;
 	}
 	.content-item-medium {
-		width: 100%;
 		margin: 0 0 20px;
 	}
 	.content-item-big {
-		width: 100%;
 		margin: 0 0 20px;
 	}
 }
