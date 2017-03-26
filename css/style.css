@@ -93,15 +93,18 @@ header nav ul {
 	display: inline;
 	text-align: right;
 	float: right;
-	margin: 30px;
-	position: absolute;
+	margin: 15px 30px;
+	position: fixed;
 	top: 0px;
 	right: 0px;
+	background: rgba(255,255,255,.5);
+	z-index: 1;
+	padding-left: 0px;
 }
 header nav ul > li {
 	list-style-type: none;
 	display: inline-block;
-	margin: 0 15px;
+	margin: 15px;
 }
 header nav ul > li > a {
 	color: #333333;
@@ -280,6 +283,7 @@ footer {
 		position: relative;
 		column-count: 3;
 		column-gap: 20px;
+		margin-bottom: 55px;
 	}
 	.content-item-small {
 		margin: 0 0 70px;
