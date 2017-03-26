@@ -230,8 +230,8 @@ footer {
 		width: 60.66666%
 	}
 	.content {
-		padding: 1.5em 1%;
-		width: 100%;
+		padding: 1.5em 10%;
+		width: 80%;
 		position: relative;
 	}
 	.content-item {
