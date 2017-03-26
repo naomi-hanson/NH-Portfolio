@@ -174,7 +174,7 @@ header .hero h3 {
 /*	display: block;*/
 	height: 216px;
 	background: #e1e1e1;
-	box-shadow: 0px 1px 3px 0px rgba (0,0,0,0.40);
+	border-radius: 4px;
 	position: relative;
 	overflow: hidden;
 	padding: 20px;
@@ -183,7 +183,7 @@ header .hero h3 {
 /*	display: block;*/
 	height: 360px;
 	background: #e1e1e1;
-	box-shadow: 0px 1px 3px 0px rgba (0,0,0,0.40);
+	border-radius: 4px;
 	position: relative;
 	overflow: hidden;
 	padding: 20px;
@@ -192,7 +192,7 @@ header .hero h3 {
 /*	display: block;*/
 	height: 504px;
 	background: #e1e1e1;
-	box-shadow: 0px 1px 3px 0px rgba (0,0,0,0.40);
+	border-radius: 4px;
 	position: relative;
 	overflow: hidden;
 	padding: 20px;
