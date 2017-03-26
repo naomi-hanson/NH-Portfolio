@@ -275,17 +275,17 @@ footer {
 		width: 80%;
 		position: relative;
 		column-count: 3;
-		column-gap: 20px;
+		column-gap: 0px;
 		margin-bottom: 55px;
 	}
 	.content-item-small {
-		margin: 0 0 70px;
+		margin: 0 0 20px;
 	}
 	.content-item-medium {
-		margin: 0 0 70px;
+		margin: 0 0 20px;
 	}
 	.content-item-big {
-		margin: 0 0 70px;
+		margin: 0 0 20px;
 	}
 	.About .one-third {
 		width: 34%;
