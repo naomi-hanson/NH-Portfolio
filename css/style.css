@@ -77,6 +77,7 @@ a {
 /* HEADER */
 header {
 	top: 0px
+	margin-bottom: 50px;
 }
 header nav {
 	position: fixed;
@@ -281,12 +282,12 @@ footer {
 		column-gap: 20px;
 	}
 	.content-item-small {
-		margin: 0 0 20px;
+		margin: 0 0 70px;
 	}
 	.content-item-medium {
-		margin: 0 0 20px;
+		margin: 0 0 70px;
 	}
 	.content-item-big {
-		margin: 0 0 20px;
+		margin: 0 0 70px;
 	}
 }
