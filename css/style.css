@@ -175,7 +175,6 @@ header .hero h3 {
 	border-radius: 4px;
 	position: relative;
 	overflow: hidden;
-	padding: 20px;
 }
 .item-box-medium {
 	height: 360px;
@@ -183,7 +182,6 @@ header .hero h3 {
 	border-radius: 4px;
 	position: relative;
 	overflow: hidden;
-	padding: 20px;
 }
 .item-box-big {
 	height: 504px;
@@ -191,7 +189,6 @@ header .hero h3 {
 	border-radius: 4px;
 	position: relative;
 	overflow: hidden;
-	padding: 20px;
 }
 
 /* ABOUT & CONTACT */
