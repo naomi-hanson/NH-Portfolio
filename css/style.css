@@ -139,12 +139,12 @@ header .hero h3 {
 }
 
 /* CONTENT */
-/*.content {
+.content {
 	padding: 6em 1% 1.5em;
 	float: right;
 	width: 98%;
 	position: relative;
-}*/
+}
 .content-item {
 	width: 96%;
 	margin: 0 2% 25px;
@@ -162,9 +162,6 @@ header .hero h3 {
 }
 
 /* ABOUT & CONTACT */
-.About {
-	padding-top: 990px;
-}
 .About .one-third {
 	float: left;
 }
@@ -233,9 +230,11 @@ footer {
 		padding: 1.5em 10%;
 		width: 80%;
 		position: relative;
+		column-count: 3;
+		column-gap: 20px;
 	}
 	.content-item {
-		width: 23%;
-		margin: 0 1% 25px;
+		width: 100%;
+		margin: 0 0 20px;
 	}
 }
