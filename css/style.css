@@ -167,7 +167,7 @@ header .hero h3 {
 	display: block;
 }
 .item-box-small {
-	display: block;
+/*	display: block;*/
 	height: 216px;
 	background: #e1e1e1;
 	box-shadow: 0px 1px 3px 0px rgba (0,0,0,0.40);
@@ -176,7 +176,7 @@ header .hero h3 {
 	padding: 20px;
 }
 .item-box-medium {
-	display: block;
+/*	display: block;*/
 	height: 360px;
 	background: #e1e1e1;
 	box-shadow: 0px 1px 3px 0px rgba (0,0,0,0.40);
@@ -185,7 +185,7 @@ header .hero h3 {
 	padding: 20px;
 }
 .item-box-big {
-	display: block;
+/*	display: block;*/
 	height: 504px;
 	background: #e1e1e1;
 	box-shadow: 0px 1px 3px 0px rgba (0,0,0,0.40);
