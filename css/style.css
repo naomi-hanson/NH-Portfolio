@@ -210,7 +210,7 @@ header .hero h3 {
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	bottom:3px;
+	bottom:0px;
 	right:0px;
 	background: inherit;
 	background-attachment: fixed;
