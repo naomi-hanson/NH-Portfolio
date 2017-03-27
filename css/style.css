@@ -169,6 +169,10 @@ header .hero h3 {
 	float: left;
 	display: block;
 }
+.content > img {
+	height: 100%;
+	width: auto;
+}
 .item-box-small {
 	height: 216px;
 	background: #e1e1e1;
