@@ -194,6 +194,13 @@ header .hero h3 {
 	position: relative;
 	overflow: hidden;
 }
+.description {
+	opacity: 0;
+	transition: opacity 0.3s linear;
+}
+.item-box-small:hover .description {
+	opacity: 1;
+}
 
 /* ABOUT & CONTACT */
 .About .one-third {
