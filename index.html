@@ -24,7 +24,7 @@
       </div>
       <div class="one-third">
         <img class="trees-upperRight" src="images/trees_upperRight.png">
-        <ul>
+        <ul class="page-navigation">
           <li><a href="#Content">WORK</a></li>
           <li><a href="#About">ABOUT</a></li>
           <li><a href="#Contact">CONTACT</a></li>
@@ -142,7 +142,12 @@
 
   <!-- JavaScript -->
   <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-  <script type="text/javascript" src="js/jquery.combinedScroll.js"></script>
+  <script type="text/javascript" src="js/jquery.combinedScroll.js">
+    jquery(document).ready(function($) {
+      // Hook up the current state to the nav bar
+      $('.page-navigation').onePageNav();
+    });
+  </script>
 
 </body>
 </html>
