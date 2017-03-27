@@ -247,6 +247,15 @@ header .hero h3 {
 .item-box-small:hover .description {
 	opacity: 1;
 }
+.title {
+	color: #ffffff
+	padding-right: 0px;
+}
+.subtitle {
+	color: #e1e1e1;
+	padding-right: 0px;
+	font-size: 18px;
+}
 
 /* ABOUT & CONTACT */
 .About .one-third {
