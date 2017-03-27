@@ -15,7 +15,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/demo.css">
   <link rel="stylesheet" type="text/css" href="css/component.css">
-  <link rel="stylesheet" type="text/css" href="css/default.css">
+<!--   <link rel="stylesheet" type="text/css" href="css/default.css"> -->
 
 </head>
 <body>
@@ -44,63 +44,12 @@
     <!-- CONTENT -->
     <section id="Content" class="content">
       <div class="container">
-        <div class="content-item-big" style="margin-top: 40px;">
-          <div class="item-box-big">
-          </div>
-        </div>
-        <div class="content-item-small">
-          <div class="item-box-small">
-          </div>
-        </div>
-        <div class="content-item-medium">
-          <div class="item-box-medium">
-          </div>
-        </div>
-        <div class="content-item-small">
-          <div class="item-box-small">
-          </div>
-        </div>
-        <div class="content-item-small" style="margin-top: 80px;">
-          <div class="item-box-small" style="background: url(images/colorKey.jpg) no-repeat fixed; background-size: auto 216px">
-              <img src="images/colorKey.jpg">
-              <div class="description">
-                <div class="square">
-                  <span class="group">
-                    <p class="title">Hello.</p>
-                    <p class="subtitle">This is a paragraph.</p>
-                  </span>
-                </div>
-              </div>
-          </div>
-        </div>
-        <div class="content-item-big">
-          <div class="item-box-big">
-          </div>
-        </div>
-        <div class="content-item-small">
-          <div class="item-box-small">
-          </div>
-        </div>
-        <div class="content-item-medium" style="-webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid;">
-          <div class="item-box-medium">
-          </div>
-        </div>
-        <div class="content-item-big">
-          <div class="item-box-big">
-          </div>
-        </div>
-        <div class="content-item-small">
-          <div class="item-box-small">
-          </div>
-        </div>
-        <div class="content-item-medium">
-          <div class="item-box-medium">
-          </div>
-        </div>
-        <div class="content-item-small">
-          <div class="item-box-small">
-          </div>
-        </div>
+        <ul class="grid effect-2" id="grid">
+          <li><a href="http://drbl.in/fWMM"><img src="images/colorKey.jpg"></a></li>
+          <li><a href="http://drbl.in/fWPV"><img src="images/portrait.png"></a></li>
+          <li><a href="http://drbl.in/fWMT"><img src="images/majk-m-662.jpg"></a></li>
+          <li><a href="http://drbl.in/fQdt"><img src="images/tumblr_mfj7pup8wk1rs1gaeo1_500.png"></a></li>
+        </ul>
       </div>
     </div>
     </section>
@@ -158,6 +107,13 @@
   <script src="js/modernizr.custom.js"></script>
   <script src="js/imagesloaded.js"></script>
   <script src="js/AnimOnScroll.js"></script>
+  <script type="text/javascript">
+    new AnimOnScroll( document.getElementById( 'grid' ), {
+    minDuration : 0.4,
+    maxDuration : 0.7,
+    viewportFactor : 0.2
+  } );
+  </script>
 
 </body>
 </html>
