@@ -282,7 +282,7 @@ footer {
 }
 
 /* OVERLAY */
-.overlay {
+/*.overlay {
 	position: fixed;
 	width: 100%;
 	height: 100%;
@@ -299,7 +299,7 @@ footer {
 .overlay-scale.open {
 	opacity: 1;
 	visibility: visible;
-	transition: transform 0.4s, opacity 0.4s;
+	transition: transform 0.4s, opacity 0.4;
 }
 
 .overlay-scale p{
@@ -320,7 +320,7 @@ footer {
 .overlay-scale.close p {
 	transform: translateY(25%) rotateX(-35deg);
 }
-
+*/
 /* MEDIA QUERIES */
 
 /* Larger Mobile Devices */
