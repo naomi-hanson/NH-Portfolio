@@ -380,8 +380,6 @@ footer {
 		padding: 1.5em 10%;
 		width: 80%;
 		position: relative;
-		column-count: 3;
-		column-gap: 0px;
 		margin-bottom: 55px;
 	}
 	.content-item-small {
