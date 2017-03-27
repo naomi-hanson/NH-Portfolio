@@ -19,6 +19,7 @@ h2 {
 	font-weight: 400;
 	font-size: 61px;
 	margin-bottom: 0px;
+	margin-top: 0px;
 }
 h3 {
 	color: #4e1e1e;
@@ -53,6 +54,9 @@ p {
 }
 a {
 	color: #a7603e;
+}
+section {
+	clear: both;
 }
 
 /* GRID */
