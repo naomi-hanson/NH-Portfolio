@@ -240,7 +240,7 @@ header .hero h3 {
 	opacity: 0;
 	transition: opacity 0.3s linear;
 }
-.item-box-small:hover .description {
+a:hover .description {
 	opacity: 1;
 }
 
