@@ -175,7 +175,7 @@ header .hero h3 {
 }
 .item-box-small {
 	height: 216px;
-	background: url(images/colorKey.jpg);
+	background: #e1e1e1;
 	border-radius: 4px;
 	position: relative;
 	overflow: hidden;
