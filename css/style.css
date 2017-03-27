@@ -169,7 +169,7 @@ header .hero h3 {
 	float: left;
 	display: block;
 }
-.content > img {
+.content img {
 	height: 100%;
 	width: auto;
 }
