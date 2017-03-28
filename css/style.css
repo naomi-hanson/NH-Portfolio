@@ -152,52 +152,6 @@ header .hero h3 {
 	width: 98%;
 	position: relative;
 }
-.content-item-small {
-	width: 360px;
-	height: 216px;
-	margin: 0 2% 25px;
-	float: left;
-	display: block;
-}
-.content-item-medium {
-	width: 360px;
-	height: 360px;
-	margin: 0 2% 25px;
-	float: left;
-	display: block;
-}
-.content-item-big {
-	width: 360px;
-	height: 504px;
-	margin: 0 2% 25px;
-	float: left;
-	display: block;
-}
-.content img {
-	height: 100%;
-	width: auto;
-}
-.item-box-small {
-	height: 216px;
-	background: #e1e1e1;
-	border-radius: 4px;
-	position: relative;
-	overflow: hidden;
-}
-.item-box-medium {
-	height: 360px;
-	background: #e1e1e1;
-	border-radius: 4px;
-	position: relative;
-	overflow: hidden;
-}
-.item-box-big {
-	height: 504px;
-	background: #e1e1e1;
-	border-radius: 4px;
-	position: relative;
-	overflow: hidden;
-}
 .square {
   position: absolute;
   width: 100%; 
