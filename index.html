@@ -15,7 +15,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/demo.css">
   <link rel="stylesheet" type="text/css" href="css/component.css">
-<!--   <link rel="stylesheet" type="text/css" href="css/default.css"> -->
+  <link rel="stylesheet" type="text/css" href="css/style5.css">
 
 </head>
 <body>
@@ -44,10 +44,28 @@
     <!-- CONTENT -->
     <section id="Content" class="content">
         <ul class="grid effect-2" id="grid">
-          <li><a href="http://drbl.in/fWMM"><img src="images/colorKey.jpg"></a></li>
-          <li><a href="http://drbl.in/fWPV"><img src="images/portrait.png"></a></li>
-          <li><a href="http://drbl.in/fWMT"><img src="images/majk-m-662.jpg"></a></li>
-          <li><a href="http://drbl.in/fQdt"><img src="images/tumblr_mfj7pup8wk1rs1gaeo1_500.png"></a></li>
+          <li>
+            <img src="images/colorKey.jpg">
+            <div class="description">
+              <div class="square">
+                <span class="group">
+                  <p class="title">Hello.</p>
+                  <p class="subtitle">
+                    <button id="trigger-overlay" type="button">It's me.</button>
+                  </p>
+                </span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="http://drbl.in/fWPV"><img src="images/portrait.png"></a>
+          </li>
+          <li>
+            <a href="http://drbl.in/fWMT"><img src="images/majk-m-662.jpg"></a>
+          </li>
+          <li>
+            <a href="http://drbl.in/fQdt"><img src="images/tumblr_mfj7pup8wk1rs1gaeo1_500.png"></a>
+          </li>
         </ul>
     </div>
     </section>
@@ -90,12 +108,13 @@
     </footer>
 
     <!-- Overlay -->
-<!--     <div class="overlay overlay-scale">
+    <div class="overlay overlay-scale">
       <button type="button" class="overlay-close">
         Close
       </button>
       <p>Hello world.</p>
-    </div> -->
+    </div>
+
   </main>
 
   <!-- JavaScript -->
@@ -105,6 +124,8 @@
   <script src="js/modernizr.custom.js"></script>
   <script src="js/imagesloaded.js"></script>
   <script src="js/AnimOnScroll.js"></script>
+  <script src="js/demo1.js"></script>
+  <script src="js/snap.svg-min.js"></script>
   <script type="text/javascript">
     new AnimOnScroll( document.getElementById( 'grid' ), {
     minDuration : 0.4,
