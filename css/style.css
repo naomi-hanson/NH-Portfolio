@@ -158,13 +158,13 @@ header .hero h3 {
   height: 100%; 
   display: table; 
 }
-.square .group {
+.group {
   display: table-cell; 
   vertical-align: middle; 
   text-align: center; 
   padding-top: 24px;
 }
-.item-box-small > .description {
+.description {
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -173,9 +173,10 @@ header .hero h3 {
 	background: inherit;
 	background-attachment: fixed;
 	overflow: hidden;
+	opacity: 0;
+	transition: opacity 0.3s linear;
 }
-
-.item-box-small > .description:before {
+.description:before {
 	content: "";
 	position: absolute;
 	bottom: -20px;
@@ -185,7 +186,7 @@ header .hero h3 {
 	background: inherit;
 	background-attachment: fixed;
 }
-.item-box-small > .description:after {
+.description:after {
 	content: "";
 	position: absolute;
 	bottom: 0;
@@ -194,11 +195,7 @@ header .hero h3 {
 	height: 100%;
 	background: rgba(0,0,0, 0.50)0
 }
-.description {
-	opacity: 0;
-	transition: opacity 0.3s linear;
-}
-.item-box-small:hover .description {
+.content li:hover .description {
 	opacity: 1;
 }
 .title {
