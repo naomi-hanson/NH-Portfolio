@@ -54,6 +54,7 @@ p {
 }
 a {
 	color: #a7603e;
+	z-index: 1;
 }
 section {
 	clear: both;
