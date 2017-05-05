@@ -1,0 +1,23 @@
+/* ABOUT & CONTACT */
+.About .one-third {
+	float: left;
+}
+.About .one-third img {
+	float: right;
+	margin-top: 8%;
+}
+
+/* FOOTER */
+footer {
+	margin-top: 141px;
+}
+.trees-lowerLeft {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+.trees-lowerRight {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}

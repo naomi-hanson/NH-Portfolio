@@ -1,0 +1,67 @@
+/* HEADER */
+header {
+	top: 0px;
+	margin-bottom: 50px;
+}
+header nav {
+	position: fixed;
+}
+header nav .one-third {
+	position: absolute;
+	right: 0px;
+}
+header nav > .two-third {
+	margin-left: 0px;
+}
+header nav ul {
+	display: inline;
+	text-align: right;
+	float: right;
+	margin: 15px 30px;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	background: rgba(255,255,255,.5);
+	z-index: 1;
+	padding-left: 0px;
+}
+header nav ul > li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 15px;
+}
+header nav ul > li > a {
+	color: #333333;
+	font-size: 14px;
+	text-decoration: none;
+}
+header nav a:hover {
+	color: #a7603e;
+}
+header nav a:active {
+	color: #a7603e;
+}
+header .hero {
+	text-align: center;
+	display: block;
+	position: relative;
+	margin-top: 125px;
+}
+header .hero h1 {
+	margin: -30px -200px 0px 0px;
+	letter-spacing: 18px;
+}
+header .hero h3 {
+	margin: 10px 0 40px;
+}
+.trees-upperLeft {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+    z-index: 2000;
+}
+.trees-upperRight {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
