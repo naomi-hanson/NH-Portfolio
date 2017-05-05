@@ -50,7 +50,8 @@ h6 {
 p {
 	font-size: 24px;
 	font-weight: normal;
-	padding-right: 20%;
+	padding-right: 10%;
+    text-align: justify;
 }
 a {
 	color: #a7603e;
@@ -139,6 +140,7 @@ header .hero h3 {
 	position: absolute;
 	top: 0px;
 	left: 0px;
+    z-index: 2000;
 }
 .trees-upperRight {
 	position: absolute;
@@ -311,3 +313,4 @@ footer {
 		width: 34%;
 	}
 }
+
