@@ -1,0 +1,71 @@
+/* HEADER */
+header {
+	top: 0px;
+}
+header nav {
+	position: fixed;
+}
+
+header nav ul {
+	display: inline;
+	text-align: right;
+	float: right;
+	margin: 15px 30px;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	background: rgba(255,255,255,.5);
+	z-index: 2;
+	padding-left: 0px;
+}
+.hero {
+	text-align: center;
+	display: block;
+	position: relative;
+	margin-top: 6rem;
+}
+h1 { 
+    letter-spacing: 10px;
+    display: block;
+    font-size: 2rem;
+    margin: -15px -120px 0px 0px;
+}
+header .hero h3 {
+	margin: 10px auto 40px;
+}
+.logo {
+    width: 31%;
+    max-width: 27.5rem;
+    min-width: 16rem;
+}
+.trees-upperLeft {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+    z-index: 1;
+}
+.trees-upperRight {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+/* FOOTER */
+footer {
+	margin-top: 141px;
+    bottom: 0;
+    position: relative;
+    clear: both;
+}
+.trees-lowerLeft {
+	position: absolute;
+    display: inline-block;
+	left: 0px;
+	bottom: 0px;
+}
+.trees-lowerRight {
+	position: absolute;
+    display: inline-block;
+	right: 0px;
+	bottom: 0px;
+}

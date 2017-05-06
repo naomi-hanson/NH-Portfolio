@@ -2,6 +2,9 @@
 
 /* Larger Mobile Devices */
 @media (min-width: 460px) {
+    h1 {
+        margin: -15px -150px 0px 0px;
+    }
 	.content {
 		padding: 1.5em 1%;
 		width: 90%;
@@ -26,6 +29,21 @@
 
 /* Tablets */
 @media (min-width: 768px) {
+    .logo {
+        margin-right: 3rem;
+    }
+    .hero {
+        visibility: visible;
+    }
+    h1 { 
+        letter-spacing: 18px;
+        display: block;
+        font-size: 2rem;
+        margin: -15px -100px 0px 0px;
+    }
+    h3 {
+        font-size: 25px;
+    }
 	.content {
 		padding: 1.5em 5%;
 		width: 90%;
@@ -53,6 +71,13 @@
 	.two-third {
 		width: 60.66666%
 	}
+    h1 {
+        font-size: 61.69px;
+        margin: -30px -200px 0px 0px;
+    }
+    h3 {
+        font-size: 33px;
+    }
 	.content {
 		padding: 1.5em 10%;
 		width: 80%;
@@ -71,4 +96,19 @@
 	.About .one-third {
 		width: 34%;
 	}
+    .About .two-third {
+        float: left;
+    }
+    .about-photo {
+    visibility: visible;
+    position: relative;
+	margin-right: 30px;
+    }
+	.Contact .one-third {
+		width: 34%;
+        position: relative;
+	}
+    .Contact .two-third {
+        float: left;
+    }
 }

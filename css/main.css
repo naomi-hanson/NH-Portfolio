@@ -5,13 +5,13 @@ body {
 	font-family: "Asap", Helvetica, Arial, sans-serif;
 	color: #333333;
 }
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
 	font-family: "Quicksand", Helvetica, Arial, sans-serif;
 }
 h1 {
 	color: #4e1e1e;
 	font-weight: bold;
-	font-size: 61.69px;
+	font-size: 20px;
 	font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
 h2 {
@@ -24,7 +24,7 @@ h2 {
 h3 {
 	color: #4e1e1e;
 	font-weight: 400;
-	font-size: 33px;
+	font-size: 20px;
 }
 h4 {
 	color: #333333;
@@ -46,19 +46,36 @@ h6 {
 	font-size: 24px;
 	font-weight: 400;
 	margin-top: 17px;
+    text-decoration: underline;
 }
 p {
 	font-size: 1rem;
 	font-weight: normal;
-	padding-right: 10%;
-    text-align: justify;
+    text-align: left;
 }
-a {
-	color: #a7603e;
+a:link {
+	color: #333333;
 	z-index: 1;
+    text-decoration: none;
+}
+a:visited {
+    color: #333333;
+}
+a:hover {
+    color: #a7603e;
+}
+a:active {
+    color: #a7603e;
+    font-size: 18px;
 }
 section {
 	clear: both;
+}
+li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 15px;
+    font-size: 14px;
 }
 
 /* GRID */
@@ -70,12 +87,12 @@ section {
 .container:after {
 	content: " ";
 	display: table;
-}
-.container:after {
 	clear: both;
 }
 .one-third, .two-third {
-	width:96%;
+	width:80%;
 	position:relative;
 	min-height: 1px;
+    margin: 0 auto;
+    max-width: 64rem;
 }

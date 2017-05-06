@@ -2,22 +2,33 @@
 .About .one-third {
 	float: left;
 }
+.About .two-third {
+    float: none;
+}
+.about-content {
+    max-width: 64rem;
+    margin: 0 auto;
+}
 .About .one-third img {
 	float: right;
 	margin-top: 8%;
+    margin-right: px;
 }
-
-/* FOOTER */
-footer {
-	margin-top: 141px;
+.about-photo {
+    visibility: hidden;
+    position: absolute;
+    width: 70%;
+    margin-right: 60px
 }
-.trees-lowerLeft {
-	position: absolute;
-	left: 0px;
-	bottom: 0px;
+.Contact {
+    max-width: 64rem;
+    margin: 80px auto 0;
 }
-.trees-lowerRight {
-	position: absolute;
-	right: 0px;
-	bottom: 0px;
+.Contact .one-third {
+    float: left;
+    height: 200px;
+    position: absolute;
+}
+.Contact .two-third {
+    float: none;
 }
