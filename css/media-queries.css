@@ -7,24 +7,12 @@
     }
 	.content {
 		padding: 1.5em 1%;
-		width: 90%;
+		width: 100%;
 		position: relative;
 	}
-	.content-item-small {
-		margin: 0 2% 25px;
-		float: left;
-		display: block;
-	}
-	.content-item-medium {
-		margin: 0 2% 25px;
-		float: left;
-		display: block;
-	}
-	.content-item-big {
-		margin: 0 2% 25px;
-		float: left;
-		display: block;
-	}
+    .content li {
+    margin: 0;
+    }
 }
 
 /* Tablets */

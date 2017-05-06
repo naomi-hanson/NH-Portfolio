@@ -14,32 +14,37 @@
     <link rel="stylesheet" type="text/css" href="css/component.css">
     <link rel="stylesheet" type="text/css" href="css/remodal.css">
     <link rel="stylesheet" type="text/css" href="css/remodal-default-theme.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/overlay.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/header-footer.css">
+    <link rel="stylesheet" type="text/css" href="css/content.css">
+    <link rel="stylesheet" type="text/css" href="css/about-contact.css">
+<!--    <link rel="stylesheet" type="text/css" href="css/overlay.css">-->
+    <link rel="stylesheet" type="text/css" href="css/media-queries.css">
+
 
     <script src="js/modernizr.custom.js"></script>
 
   </head>
   <body>
     <header>
-      <nav class="container">
-        <div class="two-third">
+        <div>
           <img class="trees-upperLeft" src="images/trees_upperLeft.png">
-        </div>
-        <div class="one-third">
           <img class="trees-upperRight" src="images/trees_upperRight.png">
-          <ul class="page-navigation">
-            <li><a href="#Content">WORK</a></li>
-            <li><a href="#About">ABOUT</a></li>
-            <li><a href="#Contact">CONTACT</a></li>
-          </ul>
         </div>
-      </nav>
-      <div class="container hero">
-        <img src="images/logo.png" style="margin-right: 50px">
-        <h1>Hanson</h1>
-        <h3>UI Designer, Illustrator, &amp; Engineer</h3>
-      </div>
+        <nav class="container">
+            <div class="one-third">
+              <ul class="page-navigation">
+                <li><a href="#Content">WORK</a></li>
+                <li><a href="#About">ABOUT</a></li>
+                <li><a href="#Contact">CONTACT</a></li>
+              </ul>
+            </div>
+        </nav>
+        <div class="container hero">
+            <img src="images/logo.png" class="logo">
+            <h1>Hanson</h1>
+            <h3>UI Designer, Illustrator, &amp; Engineer</h3>
+        </div>
     </header>
 
     <main role="main">
@@ -47,89 +52,87 @@
 
 	      <!-- CONTENT -->
 	      <section id="Content" class="content">
-	        <div class="page_container">
-	          <ul class="grid effect-2" id="grid">
-	            <li>
-	              <img src="images/bayBeans.png">
-					<a href="#Bay-Beans">
-						<div class="description">
-					  	<div class="square">
-					  		<span class="group">
-								<p class="center">Bay Beans</p>
-					  		</span>
-					  	</div>
-						</div>
-					</a>
-	            </li>
-	            <li>
-	              <img src="images/churchDesign.jpg">
-	              <a href="#Church-Design">
-		              	<div class="description">
-			              	<div class="square">
-			              		<span class="group">
-									<p class="center">Church Design</p>
-			              		</span>
-			              	</div>
-		              	</div>
-              		</a>
-	            </li>
-	            <li>
-	              <img src="images/colorKey.jpg">
-	              <a href="#modal">
-		              	<div class="description">
-			              	<div class="square">
-			              		<span class="group">
-									<p class="center">The Adventures of Ink & Bytes</p>
-			              		</span>
-			              	</div>
-		              	</div>
-              		</a>
-	            </li>
-	            <li>
-	              <img src="images/littleRobot.jpg">
-	              <a href="#modal">
-		              	<div class="description">
-			              	<div class="square">
-			              		<span class="group">
-									<p class="center">The Little Robot</p>
-			              		</span>
-			              	</div>
-		              	</div>
-              		</a>
-	            </li>
-	            <li>
-	              <img src="images/magiciansNephew.jpg">
-	              	<a href="#modal">
-		              	<div class="description">
-			              	<div class="square">
-			              		<span class="group">
-									<p class="center">The Magician's Nephew</p>
-			              		</span>
-			              	</div>
-		              	</div>
-              		</a>
-	            </li>
-	            <li>
-	              <img src="images/photography.jpg">
-	              <a href="#case-study">
-		              	<div class="description">
-			              	<div class="square">
-			              		<span class="group">
-									<p class="center">Fairytales</p>
-			              		</span>
-			              	</div>
-		              	</div>
-              		</a>
-	            </li>
-	          </ul>
-	        </div>
+              <ul class="grid effect-2" id="grid">
+                <li>
+                  <img src="images/bayBeans.png">
+                    <a href="#Bay-Beans">
+                        <div class="description">
+                        <div class="square">
+                            <span class="group">
+                                <p class="center">Bay Beans</p>
+                            </span>
+                        </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                  <img src="images/churchDesign.jpg">
+                  <a href="#Church-Design">
+                        <div class="description">
+                            <div class="square">
+                                <span class="group">
+                                    <p class="center">Church Design</p>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                  <img src="images/colorKey.jpg">
+                  <a href="#modal">
+                        <div class="description">
+                            <div class="square">
+                                <span class="group">
+                                    <p class="center">The Adventures of Ink & Bytes</p>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                  <img src="images/littleRobot.jpg">
+                  <a href="#modal">
+                        <div class="description">
+                            <div class="square">
+                                <span class="group">
+                                    <p class="center">The Little Robot</p>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                  <img src="images/magiciansNephew.jpg">
+                    <a href="#modal">
+                        <div class="description">
+                            <div class="square">
+                                <span class="group">
+                                    <p class="center">The Magician's Nephew</p>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                  <img src="images/photography.jpg">
+                  <a href="#case-study">
+                        <div class="description">
+                            <div class="square">
+                                <span class="group">
+                                    <p class="center">Fairytales</p>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+              </ul>
 	      </section>
 
 	      <!-- ABOUT -->
 	      <section id="About" class="About">
-	        <div class="container">
+	        <div class="container about-content">
 	          <div class="one-third">
-	            <img src="images/portrait.png">
+	            <img src="images/portrait.png" class="about-photo">
 	          </div>
 	          <div class="two-third">
 	            <h2>About</h2>
@@ -141,6 +144,8 @@
 	      <!-- CONTACT -->
 	      <section id="Contact" class="Contact">
 	        <div class="container">
+                <div class="one-third">
+                </div>
 	          <div class="two-third">
 	            <h2>Contact</h2>
 	            <h4>Naomi Hanson</h4>
@@ -152,14 +157,8 @@
 
 	      <!-- FOOTER -->
 	      <footer>
-	        <div class="container">
-	          <div class="one-third">
-	            <img class="trees-lowerLeft" src="images/trees_lowerLeft.png">
-	          </div>
-	          <div class="two-third">
-	            <img class="trees-lowerRight" src="images/trees_lowerRight.png">
-	          </div>
-	        </div>
+            <img class="trees-lowerLeft" src="images/trees_lowerLeft.png">
+            <img class="trees-lowerRight" src="images/trees_lowerRight.png">
 	      </footer>
       	</div>
 
@@ -167,8 +166,8 @@
       <div class="remodal-overlay"></div>
       <div class="remodal" data-remodal-id="Bay-Beans">
         <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-        <section id="Content" class="content">
-      		<h1 class="remodal-title">Bay Beans</h1>
+        <section id="Content" class="overlay-content">
+      		<h2 class="remodal-title">Bay Beans</h2>
       		<p class="remodal-description">Bay Beans is an app to help local college students find a cafe to study at or to hang out with friends, respecting personal aesthetics and specific needs.</p>
   		</section>
   		<section id="Content" class="content">
@@ -194,26 +193,6 @@
 	          	<p>The problem was trying to appeal to the aesthetic choices of the participants. What exactly would they look for in a cafe versus a restaurant.</p>
 	      	</div>
       	</section>
-      </div>
-
-      <div class="remodal" data-remodal-id="Church-Design">
-        <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-      	<div class="page_container">
-	          <ul id="grid">
-	          	<li>
-	              <img src="images/colorKey.jpg">
-              	</li>
-              	<li>
-	              <img src="images/LR_01.jpg">
-              	</li>
-              	<li>
-	              <img src="images/majk-m-662.jpg">
-              	</li>
-              	<li>
-	              <img src="images/tumblr_mfj7pup8wk1rs1gaeo1_500.png">
-              	</li>
-          	</ul>
-      	</div>
       </div>
 
     </main>
