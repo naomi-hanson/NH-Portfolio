@@ -1,6 +1,5 @@
 .project-hero {
-    margin-top: 30px;
-    margin: 0 auto;
+    margin: 20px auto;
     max-width: 64rem;
 }
 .remodal-title {
@@ -20,7 +19,7 @@ li.btn-outline {
 	border-radius: 4px;
 	width: 126px;
     padding: 10px 30px;
-    margin: auto auto 30px;
+    margin: auto;
 }
 li.btn-outline > a {
     color: #ffffff;
@@ -36,7 +35,7 @@ li.btn-outline:hover > a {
 	color: #FFFFFF;
 }
 .explanation {
-    margin: 20px auto;
+    margin: 60px auto;
     max-width: 64rem;
 }
 .remodal-description {
@@ -86,4 +85,7 @@ li.btn-outline:hover > a {
 	.overlay-grid li {
 		width: 100%;
 	}
+}
+.overlay-titles {
+    margin-top: 40px;
 }
