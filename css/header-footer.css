@@ -56,12 +56,14 @@ footer {
     bottom: 0;
     position: relative;
     clear: both;
+    z-index: -1;
 }
 .trees-lowerLeft {
 	position: absolute;
     display: inline-block;
 	left: 0px;
 	bottom: 0px;
+    z-index: 0;
 }
 .trees-lowerRight {
 	position: absolute;

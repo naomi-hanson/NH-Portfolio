@@ -49,9 +49,10 @@ h6 {
     text-decoration: underline;
 }
 p {
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	font-weight: 200;
     text-align: left;
+    color: #aa908b;
 }
 a:link {
 	color: #333333;
