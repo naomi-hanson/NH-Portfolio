@@ -90,10 +90,16 @@ li {
 	display: table;
 	clear: both;
 }
-.one-third, .two-third {
+.one-third, .two-third{
 	width:80%;
 	position:relative;
 	min-height: 1px;
     margin: 0 auto;
     max-width: 64rem;
+}
+.one-fourth, .three-fourth {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding:20px;
 }

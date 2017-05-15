@@ -1,5 +1,6 @@
 .project-hero {
     margin: 20px auto;
+    margin-bottom: 60px;
     max-width: 64rem;
 }
 .remodal-title {
@@ -7,6 +8,9 @@
     font-weight: 400;
     color: #a7603e;
     font-size: 60px;
+}
+.overlay-titles {
+    margin-top: 40px;
 }
 .summary {
     font-size: 20px;
@@ -35,7 +39,7 @@ li.btn-outline:hover > a {
 	color: #FFFFFF;
 }
 .explanation {
-    margin: 60px auto;
+    margin: 30px auto;
     max-width: 64rem;
 }
 .remodal-description {
@@ -50,42 +54,35 @@ li.btn-outline:hover > a {
 .overlay-content li {
     margin: 0;
 }
-.overlay-image {
+table {
+    clear: both;
     width: 100%;
-}
-.overlay-grid {
-	max-width: 100%;
-	list-style: none;
-	margin: 30px 30px;
-	padding: 0;
+    max-width: 64rem;
+    border-collapse: collapse;
 }
 
-.overlay-grid li {
-	display: block;
-	float: left;
-	padding: 7px;
-	width: 31%;
+
+th {
+    text-align: center;
 }
 
-.overlay-grid li img {
-	outline: none;
-	border: none;
-	display: block;
-	max-width: 100%;
+td {
+    display: block;
+    vertical-align: top;
+}
+table, td {
+    border: solid 2px #aa908b;
 }
 
-/* Media Queries */
-@media screen and (max-width: 900px) {
-	.overlay-grid li {
-		width: 45%;
-	}
+.three-fourth {
+    background-color: rgba(170,144,139,.2);
 }
 
-@media screen and (max-width: 400px) {
-	.overlay-grid li {
-		width: 100%;
-	}
+.one-fourth {
+    background-color: rgba(170,144,139,.5);  
 }
-.overlay-titles {
-    margin-top: 40px;
+
+.overlay-images {
+    width: 100%;
+    position: relative;
 }
