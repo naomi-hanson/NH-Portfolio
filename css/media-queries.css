@@ -54,6 +54,18 @@
     .three-fourth {
         width: 75%;
     }
+    .project-hero { 
+        background-image: url(../images/mockUp-BB.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    .hero-image {
+        visibility: hidden;
+    }
+    .hero-header {
+        color: #ffffff;
+    }
 	.overlay-content {
 		padding: 1.5em 5%;
 		width: 90%;
