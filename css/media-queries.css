@@ -76,6 +76,7 @@
         padding-left: 7%;
         width: 100%;
         text-align: left;
+        text-shadow: 1px 1px 0px rgb(58,23,63);
     }
     .summary {
         color: #ffffff;
@@ -91,6 +92,7 @@
         width: 50%;
         max-width: 25em;
         text-align: left;
+        text-shadow: 1px 1px 0px rgb(58,23,63);
     }
     li.btn-outline {
         position: absolute;
@@ -100,6 +102,30 @@
         -moz-transform: translateY(-75%);
         -ms-transform: translateY(-75%);
         transform: translateY(-75%);
+    }
+    .problem-solution {
+        margin-top: -60px;
+    }
+    .main, .sidebar {
+      float: none;
+      padding: 20px;
+      vertical-align: top;
+    }
+    .main {
+        width: 2000rem;
+      background-color: rgba(170,144,139,.2);
+      display: table-cell;
+        border-top: solid 3px #aa908b;
+        border-bottom: solid 3px #aa908b;
+        border-right: solid 3px #aa908b;
+        padding: 30px;
+    }
+    .sidebar {
+      width: 25%;
+      display: table-cell;
+      background-color: rgba(170,144,139,.5);
+        border: solid 3px #aa908b;
+        padding: 30px;
     }
 	.overlay-content {
 		padding: 1.5em 5%;

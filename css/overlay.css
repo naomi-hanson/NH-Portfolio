@@ -13,7 +13,6 @@
     color: #a7603e;
     font-size: 60px;
 }
-
 .summary {
     font-size: 20px;
     text-align: center
@@ -41,12 +40,14 @@ li.btn-outline:hover > a {
 	color: #FFFFFF;
 }
 .explanation {
-    margin: 0px auto;
+    margin: 0 auto;
     max-width: 64rem;
 }
 .remodal-description {
     font-size: 18px;
     text-align: justify;
+    max-width: 64rem;
+    margin: 20px auto;
 }
 .overlay-content {
 	width: 98%;
@@ -56,51 +57,47 @@ li.btn-outline:hover > a {
 .overlay-content li {
     margin: 0;
 }
-table {
-    clear: both;
-    width: 100%;
-    max-width: 64rem;
-    border-collapse: collapse;
-    margin-bottom: 50px;
-}
-
-
-th {
-    text-align: center;
-}
-
-td {
-    display: block;
-    vertical-align: top;
-}
-table, td {
-    border: solid 2px #aa908b;
-}
-
-.three-fourth {
-    background-color: rgba(170,144,139,.2);
-}
-
-.one-fourth {
-    background-color: rgba(170,144,139,.5);  
-}
-
 .overlay-images {
     width: 100%;
 }
-
 .overlay-header {
     width: 70%;
     min-width: 20em;
 }
-
 .hero-image {
     width: 100%;
     margin-bottom: 30px;
 }
-
 .overlay-titles {
 	color: #a7603e;
+    font-size: 30px;
+}
+.sidebar {
+  background-color: rgba(170,144,139,.5);
+    border: solid 3px #aa908b;
+    padding: 15px;
+}
+.main {
+      background-color: rgba(170,144,139,.2);
+    border-left: solid 3px #aa908b;
+    border-right: solid 3px #aa908b;
+    border-bottom: solid 3px #aa908b;
+    padding: 15px;
+}
+.solution-description {
+    font-size: 18px;
+    text-align: justify;
+    max-width: 64rem;
+    margin: 20px auto;
 }
 
+.problem-description {
+    font-size: 18px;
+    text-align: justify;
+    max-width: 17rem;
+    margin: 20px auto;
+}
 
+.problem-solution {
+    margin-bottom: 60px;
+}
