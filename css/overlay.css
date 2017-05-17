@@ -1,7 +1,6 @@
 .project-hero {
     margin: 20px auto;
     margin-bottom: 60px;
-    max-width: 64rem;
     z-index: 1000;
     position: relative;
 }
@@ -99,3 +98,9 @@ table, td {
     width: 100%;
     margin-bottom: 30px;
 }
+
+.overlay-titles {
+	color: #a7603e;
+}
+
+
