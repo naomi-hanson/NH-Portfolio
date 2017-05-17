@@ -79,7 +79,7 @@
   padding: 0;
 
   cursor: pointer;
-  transition: color 0.2s;
+  transition: 0.2s;
   text-decoration: none;
     z-index: 3;
 
@@ -91,21 +91,10 @@
 
 .remodal-close:hover,
 .remodal-close:focus {
-  color: #2b2e38;
+  opacity: 0.3;
 }
 
-.remodal-close:before {
-    position: absolute;
-  top: 0;
-  left: 0;
 
-  display: block;
-
-  width: 35px;
-
-  content: url(../images/cross.png);
-  text-align: center;
-}
 
 .remodal-close::-moz-focus-inner {
   padding: 0;
