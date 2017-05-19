@@ -13,11 +13,8 @@
     .content li {
     margin: 0;
     }
-    .one-fourth, .three-fourth {
-        box-sizing: border-box;
-        width: 50%;
-        float: left;
-        padding: 30px;
+    .center {
+        font-size: 16px;
     }
 	.overlay-content {
 		padding: 1.5em 1%;
@@ -48,11 +45,8 @@
 		width: 90%;
 		position: relative;
 	}
-    .one-fourth {
-        width: 25%;
-    }
-    .three-fourth {
-        width: 75%;
+    .center {
+        font-size: 18px;
     }
     .project-hero { 
         background-image: url(../images/mockUp-BB.png);
