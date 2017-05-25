@@ -32,3 +32,21 @@
 .Contact .two-third {
     float: none;
 }
+.about-description {
+    line-height: 130%;
+    letter-spacing: 1px;
+}
+
+.about-big {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.authors {
+    font-weight: 500;
+    line-height: 3;
+}
+
+.quotes {
+    font-size: .8rem;
+}

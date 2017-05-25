@@ -1,12 +1,23 @@
-.project-hero {
+/* Case Study Heroes */
+.BB-hero {
+    margin: 0 auto;
+    margin-bottom: 60px;
+    z-index: 1000;
+    position: relative;
+}
+.CF-hero {
+    margin: 0 auto;
+    margin-bottom: 60px;
+    z-index: 1000;
+    position: relative;
+}
+.CSL-hero {
     margin: 20px auto;
     margin-bottom: 60px;
     z-index: 1000;
     position: relative;
 }
-.overlay-hero {
-    clear: both;
-}
+
 .remodal-title {
     font-family: "Quicksand", Helvetica, Arial, sans-serif;
     font-weight: 400;
@@ -39,15 +50,17 @@ li.btn-outline:hover {
 li.btn-outline:hover > a {
 	color: #FFFFFF;
 }
-.explanation {
+.process {
     margin: 0 auto;
     max-width: 64rem;
 }
 .remodal-description {
-    font-size: 18px;
+    font-size: 16px;
     text-align: justify;
     max-width: 64rem;
     margin: 20px auto;
+    line-height: 130%;
+    letter-spacing: 1px;
 }
 .overlay-content {
 	width: 98%;
@@ -99,7 +112,15 @@ li.btn-outline:hover > a {
 }
 
 .problem-solution {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 
+
+
+
+
+
+.x {
+    width: 50%;
+}
