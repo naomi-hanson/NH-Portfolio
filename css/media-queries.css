@@ -13,7 +13,7 @@
     .content li {
     margin: 0;
     }
-    .center {
+    .project-kind {
         font-size: 16px;
     }
 	.overlay-content {
@@ -45,9 +45,7 @@
 		width: 90%;
 		position: relative;
 	}
-    .center {
-        font-size: 18px;
-    }
+
     
 /* Case Study Heroes */
     .BB-hero { 
@@ -65,7 +63,7 @@
         max-height: 30em;
     }
     .CSL-hero { 
-        background-image: url(../images/mockUp-BB.png);
+        background-image: url(../images/mockUp-CSL.png);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -94,11 +92,11 @@
         color: #ffffff;
         font-size: 1.2em;
         position: absolute;
-        top: 47%;
-        -webkit-transform: translateY(-47%);
-        -moz-transform: translateY(-47%);
-        -ms-transform: translateY(-47%);
-        transform: translateY(-47%);
+        top: 43%;
+        -webkit-transform: translateY(-43%);
+        -moz-transform: translateY(-43%);
+        -ms-transform: translateY(-43%);
+        transform: translateY(-43%);
         box-sizing: border-box; 
         padding-left: 7%;
         width: 50%;
@@ -109,11 +107,11 @@
     li.btn-outline {
         position: absolute;
         left: 7%;
-        top: 75%;
-        -webkit-transform: translateY(-75%);
-        -moz-transform: translateY(-75%);
-        -ms-transform: translateY(-75%);
-        transform: translateY(-75%);
+        top: 70%;
+        -webkit-transform: translateY(-70%);
+        -moz-transform: translateY(-70%);
+        -ms-transform: translateY(-70%);
+        transform: translateY(-70%);
     }
     .problem-solution {
         margin-top: -60px;
