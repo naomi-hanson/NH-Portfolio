@@ -117,3 +117,22 @@ li.btn-outline:hover > a {
 .x {
     width: 50%;
 }
+
+.remodal-list {
+    font-size: 16px;
+    text-align: justify;
+    max-width: 64rem;
+    margin: 20px auto;
+    line-height: 130%;
+    letter-spacing: 1px;
+    list-style-type: circle;
+}
+
+.remodal-list-item {
+    display: block;
+    color: #aa908b;
+    text-align: center;
+    list-style: circle;
+}
+
+

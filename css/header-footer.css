@@ -71,3 +71,7 @@ footer {
 	right: 0px;
 	bottom: 0px;
 }
+
+.page-navigation {
+    list-style: none;
+}
