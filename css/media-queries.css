@@ -14,7 +14,7 @@
     margin: 0;
     }
     .project-kind {
-        font-size: 16px;
+        font-size: 17px;
     }
     .role {
         font-size: 14px;
@@ -48,9 +48,10 @@
 		width: 90%;
 		position: relative;
 	}
-
-    
-/* Case Study Heroes */
+    .project-kind {
+        font-size: 18px;
+    }
+    /* Case Study Heroes */
     .BB-hero { 
         background-image: url(../images/mockUp-BB.png);
         background-repeat: no-repeat;
@@ -72,8 +73,6 @@
         background-size: cover;
         max-height: 30em;
     }
-    
-    
     .hero-image {
         visibility: hidden;
     }
@@ -168,6 +167,12 @@
 		position: relative;
 		margin-bottom: 55px;
 	}
+    .project-kind {
+        font-size: 1.5rem;
+    }
+    .role {
+        font-size: 1rem;
+    }
 	.About .one-third {
 		width: 34%;
 	}
