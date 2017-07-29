@@ -53,21 +53,21 @@
     }
     /* Case Study Heroes */
     .BB-hero { 
-        background-image: url(../images/mockUp-BB.png);
+        background-image: url(../images/bayBeans/mockUp-BB.png);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
         max-height: 30em;
     }
     .CF-hero { 
-        background-image: url(../images/mockUp-CF-02.png);
+        background-image: url(../images/compassionFund/mockUp-CF-02.png);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
         max-height: 30em;
     }
     .CSL-hero { 
-        background-image: url(../images/mockUp-CSL.png);
+        background-image: url(../images/csLewis/mockUp-CSL.png);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;

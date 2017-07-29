@@ -66,6 +66,7 @@ li.btn-outline:hover > a {
 	width: 98%;
 	position: relative;
     margin: 0 auto;
+    max-width: 64rem;
 }
 .overlay-content li {
     margin: 0;
