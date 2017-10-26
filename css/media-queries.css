@@ -34,7 +34,7 @@
     .hero {
         visibility: visible;
     }
-    h1 { 
+    h1 {
         letter-spacing: 18px;
         display: block;
         font-size: 2rem;
@@ -52,21 +52,21 @@
         font-size: 18px;
     }
     /* Case Study Heroes */
-    .BB-hero { 
+    .BB-hero {
         background-image: url(../images/bayBeans/mockUp-BB.png);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
         max-height: 30em;
     }
-    .CF-hero { 
-        background-image: url(../images/compassionFund/mockUp-CF-02.png);
+    .CF-hero {
+        background-image: url(../images/compassionFund/mockUp-CF-02.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
         max-height: 30em;
     }
-    .CSL-hero { 
+    .CSL-hero {
         background-image: url(../images/csLewis/mockUp-CSL.png);
         background-repeat: no-repeat;
         background-position: center center;
@@ -84,7 +84,7 @@
         -moz-transform: translateY(-30%);
         -ms-transform: translateY(-30%);
         transform: translateY(-30%);
-        box-sizing: border-box; 
+        box-sizing: border-box;
         padding-left: 7%;
         width: 100%;
         text-align: left;
@@ -99,7 +99,7 @@
         -moz-transform: translateY(-43%);
         -ms-transform: translateY(-43%);
         transform: translateY(-43%);
-        box-sizing: border-box; 
+        box-sizing: border-box;
         padding-left: 7%;
         width: 50%;
         max-width: 25em;
