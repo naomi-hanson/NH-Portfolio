@@ -1,5 +1,23 @@
 /* Case Study Heroes */
-.CS-hero {
+.BB-hero {
+    margin: 0 auto;
+    margin-bottom: 60px;
+    z-index: 1000;
+    position: relative;
+}
+.CF-hero {
+    margin: 0 auto;
+    margin-bottom: 60px;
+    z-index: 1000;
+    position: relative;
+}
+.CSL-hero {
+    margin: 0 auto;
+    margin-bottom: 60px;
+    z-index: 1000;
+    position: relative;
+}
+.AV-hero {
     margin: 0 auto;
     margin-bottom: 60px;
     z-index: 1000;
