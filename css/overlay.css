@@ -1,18 +1,6 @@
 /* Case Study Heroes */
-.BB-hero {
+.CS-hero {
     margin: 0 auto;
-    margin-bottom: 60px;
-    z-index: 1000;
-    position: relative;
-}
-.CF-hero {
-    margin: 0 auto;
-    margin-bottom: 60px;
-    z-index: 1000;
-    position: relative;
-}
-.CSL-hero {
-    margin: 20px auto;
     margin-bottom: 60px;
     z-index: 1000;
     position: relative;
