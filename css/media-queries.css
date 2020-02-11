@@ -73,6 +73,13 @@
         background-size: cover;
         max-height: 30em;
     }
+    .AV-hero {
+        background-image: url(../images/alexaVideo/mockUp_Alexa.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        max-height: 30em;
+    }
     .hero-image {
         visibility: hidden;
     }
