@@ -41,7 +41,7 @@
   box-sizing: border-box;
   width: 100%;
   margin-bottom: 10px;
-  padding: 35px;
+  padding: 30px;
 
   transform: translate3d(0, 0, 0);
 
@@ -75,7 +75,7 @@
 
   width: 35px;
   height: 35px;
-  margin: 5px;
+  margin: 10px;
   padding: 0;
 
   cursor: pointer;
@@ -152,5 +152,3 @@
     opacity: 0;
   }
 }
-
-

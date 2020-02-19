@@ -26,6 +26,13 @@
 	}
 }
 
+/* <Tablets */
+@media (max-width: 767px) {
+  .alexa-video {
+    display: none;
+  }
+}
+
 /* Tablets */
 @media (min-width: 768px) {
     .logo {
