@@ -80,6 +80,9 @@ li.btn-outline:hover > a {
 .overlay-images {
     width: 100%;
 }
+.overlay-images-vertical {
+  height: 90vh;
+}
 .overlay-header {
     width: 70%;
     min-width: 20em;
