@@ -58,6 +58,9 @@
     .project-kind {
         font-size: 18px;
     }
+    .hero-image {
+        visibility: hidden;
+    }
     /* Case Study Heroes */
     .BB-hero {
         background-image: url(../images/bayBeans/mockUp-BB.jpg);
@@ -87,9 +90,7 @@
         background-size: cover;
         max-height: 30em;
     }
-    .hero-image {
-        visibility: hidden;
-    }
+    
     .hero-header {
         color: #ffffff;
         position: absolute;
