@@ -46,7 +46,8 @@ h6 {
 	font-size: 20px;
 	font-weight: 400;
 	margin-top: 17px;
-    text-decoration: underline;
+	margin-bottom: 20px;
+  text-decoration: underline;
 }
 p {
 	font-size: .9rem;
