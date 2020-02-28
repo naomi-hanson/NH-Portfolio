@@ -88,47 +88,38 @@
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
-        max-height: 30em;
+        max-height: 25em;
     }
-    
+
+    .caseStudy-titles {
+      position: absolute;
+      top: 49%;
+      -webkit-transform: translateY(-49%);
+      -moz-transform: translateY(-49%);
+      -ms-transform: translateY(-49%);
+      transform: translateY(-49%);
+      padding-left: 7%;
+      box-sizing: border-box;
+      width: 90%;
+    }
     .hero-header {
         color: #ffffff;
-        position: absolute;
-        top: 30%;
-        -webkit-transform: translateY(-30%);
-        -moz-transform: translateY(-30%);
-        -ms-transform: translateY(-30%);
-        transform: translateY(-30%);
-        box-sizing: border-box;
-        padding-left: 7%;
-        width: 100%;
         text-align: left;
         text-shadow: 1px 1px 0 #755b56;
     }
     .summary {
         color: #ffffff;
         font-size: 1.2em;
-        position: absolute;
-        top: 43%;
-        -webkit-transform: translateY(-43%);
-        -moz-transform: translateY(-43%);
-        -ms-transform: translateY(-43%);
-        transform: translateY(-43%);
         box-sizing: border-box;
-        padding-left: 7%;
-        width: 50%;
-        max-width: 25em;
+        max-width: 20em;
+        margin-top: 15px;
         text-align: left;
         text-shadow: 1px 1px 0 #755b56;
     }
     li.btn-outline {
-        position: absolute;
-        left: 7%;
-        top: 70%;
-        -webkit-transform: translateY(-70%);
-        -moz-transform: translateY(-70%);
-        -ms-transform: translateY(-70%);
-        transform: translateY(-70%);
+        display: block;
+        margin-top: 50px;
+        margin-left: 0px;
     }
     .problem-solution {
         margin-top: -60px;
